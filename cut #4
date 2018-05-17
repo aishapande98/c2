@@ -1,0 +1,4 @@
+while read line
+do 
+echo $line | cut -c1,2,3,4
+done
